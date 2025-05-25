@@ -1,7 +1,7 @@
 
 
-current_age = int(input("How old are you? "))
+hours = 2
 
-age_in_2050 = current_age + 27
+seconds = hours * 3600
 
-print(f"In 2050, you will be {age_in_2050} years old.")
+print(f"{hours} hour(s) is {seconds} seconds.")
